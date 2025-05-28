@@ -1,5 +1,4 @@
 import { useQuery } from '@tanstack/react-query'
-import { Post } from './components/Post'
 import { CreatePost } from './components/CreatePost'
 import { PostList } from './components/PostList'
 import { PostFilter } from './components/PostFilter'

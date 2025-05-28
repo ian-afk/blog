@@ -30,9 +30,6 @@ export function CreatePost() {
   const handleSubmit = (e) => {
     e.preventDefault()
     createtPostMutation.mutate()
-
-    if (createtPostMutation.isSuccess) {
-    }
   }
 
   const handleChange = (e) => {

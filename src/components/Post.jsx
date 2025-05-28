@@ -7,7 +7,7 @@ Post.propTypes = {
   id: PropTypes.string,
   deletePost: PropTypes.func,
 }
-export function Post({ title, contents, author, _id, deletePost }) {
+export function Post({ title, contents, author, id: _id, deletePost }) {
   return (
     <article>
       <h3>{title}</h3>

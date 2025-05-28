@@ -6,7 +6,7 @@ import { deletePost } from '../api/posts'
 
 export function PostList({ posts = [] }) {
   const queryClient = useQueryClient()
-  const { mutate: deleteMutate, data } = useMutation({
+  const { mutate: deleteMutate } = useMutation({
     mutationFn: (id) => deletePost(id),
     onSuccess: (data) => {
       console.log(data.message, 'hello')
